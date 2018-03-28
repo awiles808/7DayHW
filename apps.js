@@ -1,7 +1,7 @@
 const form = document.getElementById("blogForm")
 
 form.addEventListener("Submit", function(event){
-    event.preventDefault()});
+     event.preventDefault()});
 
 let inputValue = document.getElementById("blogInput").value
 
