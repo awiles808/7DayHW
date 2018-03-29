@@ -1,12 +1,16 @@
 const form = document.getElementById("blogForm")
 
-form.addEventListener("Submit", function(event){
-     event.preventDefault()});
 
-let inputValue = document.getElementById("blogInput").value
+form.addEventListener("submit", function() {
+    event.preventDefault();
 
-let newElement = document.create("p");
+ const inputValue = document.getElementById("inputbox").value;
 
-newElement.inner.HTML = inputValue;
+    let newElement = document.createElement("p");
 
-document.getElementsByTagName("body")[0].appendChild(newElement);
+    newElement.innerHTML = inputValue;
+
+document.body.appendChild(newElement);
+
+document.getElementById("inputbox").value = "";
+});
