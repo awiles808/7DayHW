@@ -1,8 +1,8 @@
 const form = document.getElementById("blogForm")
 
 
-form.addEventListener("submit", function() {
-    event.preventDefault();
+form.addEventListener("submit", function(e) {
+    e.preventDefault();
 
  const inputValue = document.getElementById("inputbox").value;
 

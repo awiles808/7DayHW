@@ -1,3 +1,8 @@
+header{
+    text-align: center;
+    font-size: 30px;
+}
+
 body{
     background-image: url(https://images.pexels.com/photos/593759/pexels-photo-593759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
@@ -9,14 +14,17 @@ form{
 }
 p{
     text-align: center;
-    font-family:  'Questrial', sans-serif;
+    list-style-position: inside;
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    font-size: 35px;
+}
 
 
-}
-header{
-    font-size: 30px;
-    text-align: center;
-}
+
+
 
 
 @import url('https://fonts.googleapis.com/css?family=Questrial');
